@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> Booleans </title>
+      <style> 
+        
+      </style> 
+    </head>
+  <body>
+    
+    <script> 
+      true
+      false 
+      console.log(3 < 5);
+      console.log(5 === '5');
+      // === to avoid conversion behavior
+
+      console.log(3 > 5 - 5); // 5-5 first 
+      // lower priority
+
+      if (true) {
+        console.log('hello');
+      } else {
+        console.log('else');
+      }
+
+
+      const age = 15;
+
+      if (age >= 18) {
+        console.log('You can drive');
+        console.log('Congrats!');
+      } else if (age >= 14) {
+        console.log('Almost there!');
+      } else {
+        console.log('You cannot drive');
+      }
+
+      console.log(false || false);
+      console.log(!false);
+    </script> 
+  </body>
+</html>
